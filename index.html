@@ -5,7 +5,186 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <script>
-  </script>
-</body>
+    <div class="panels">
+        <div class="panel panel1">
+          <p></p>
+          <p>Day 1</p>
+          <p></p>
+        </div>
+        <div class="panel panel2">
+          <p></p>
+          <p>Day 2</p>
+          <p></p>
+        </div>
+        <div class="panel panel3">
+          <p></p>
+          <p>Day 3</p>
+          <p></p>
+        </div>
+        <div class="panel panel4">
+          <p></p>
+          <p>Day 4</p>
+          <p></p>
+        </div>
+        <div class="panel panel5">
+          <p></p>
+          <p>Day 5</p>
+          <p></p>
+        </div>
+        <div class="panel panel6">
+            <p></p>
+            <p>Day 6</p>
+            <p></p>
+          </div>
+      </div>
+    <div class="panels">
+      <div class="panel panel7">
+        <p></p>
+        <p>Day 7</p>
+        <p></p>
+      </div>
+      <div class="panel panel8">
+        <p></p>
+        <p>Day 8</p>
+        <p></p>
+      </div>
+      <div class="panel panel9">
+        <p></p>
+        <p>Day 9</p>
+        <p></p>
+      </div>
+      <div class="panel panel10">
+        <p></p>
+        <p>Day 10</p>
+        <p></p>
+      </div>
+      <div class="panel panel11">
+        <p></p>
+        <p>Day 11</p>
+        <p></p>
+      </div>
+      <div class="panel panel12">
+          <p></p>
+          <p>Day 12</p>
+          <p></p>
+        </div>
+    </div>
+    <div class="panels">
+        <div class="panel panel13">
+          <p></p>
+          <p>Day 13</p>
+          <p></p>
+        </div>
+        <div class="panel panel14">
+          <p></p>
+          <p>Day 14</p>
+          <p></p>
+        </div>
+        <div class="panel panel15">
+          <p></p>
+          <p>Day 15</p>
+          <p></p>
+        </div>
+        <div class="panel panel16">
+          <p></p>
+          <p>Day 16</p>
+          <p></p>
+        </div>
+        <div class="panel panel17">
+          <p></p>
+          <p>Day 17</p>
+          <p></p>
+        </div>
+        <div class="panel panel18">
+            <p></p>
+            <p>Day 18</p>
+            <p></p>
+          </div>
+      </div>
+      <div class="panels">
+          <div class="panel panel19">
+            <p></p>
+            <p>Day 19</p>
+            <p></p>
+          </div>
+          <div class="panel panel20">
+            <p></p>
+            <p>Day 20</p>
+            <p></p>
+          </div>
+          <div class="panel panel21">
+            <p></p>
+            <p>Day 21</p>
+            <p></p>
+          </div>
+          <div class="panel panel22">
+            <p></p>
+            <p>Day 22</p>
+            <p></p>
+          </div>
+          <div class="panel panel23">
+            <p></p>
+            <p>Day 23</p>
+            <p></p>
+          </div>
+          <div class="panel panel24">
+              <p></p>
+              <p>Day 24</p>
+              <p></p>
+            </div>
+        </div>
+        <div class="panels">
+            <div class="panel panel25">
+              <p></p>
+              <p>Day 25</p>
+              <p></p>
+            </div>
+            <div class="panel panel26">
+              <p></p>
+              <p>Day 26</p>
+              <p></p>
+            </div>
+            <div class="panel panel27">
+              <p></p>
+              <p>Day 27</p>
+              <p></p>
+            </div>
+            <div class="panel panel28">
+              <p></p>
+              <p>Day 28</p>
+              <p></p>
+            </div>
+            <div class="panel panel29">
+              <p></p>
+              <p>Day 29</p>
+              <p></p>
+            </div>
+            <div class="panel panel30">
+                <p></p>
+                <p>Day 30</p>
+                <p></p>
+              </div>
+          </div>
+
+  
+    <script>
+      const panels = document.querySelectorAll('.panel');
+  
+      function toggleOpen() {
+        console.log('Hello');
+        this.classList.toggle('open');
+      }
+  
+      function toggleActive(e) {
+        console.log(e.propertyName);
+        if (e.propertyName.includes('flex')) {
+          this.classList.toggle('open-active');
+        }
+      }
+  
+      panels.forEach(panel => panel.addEventListener('click', toggleOpen));
+      panels.forEach(panel => panel.addEventListener('transitionend', toggleActive));
+    </script>
+  
+  </body>
 </html>
