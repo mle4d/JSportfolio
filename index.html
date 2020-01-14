@@ -165,9 +165,13 @@
                 <p><a href=""></a></p>
               </div>
           </div>
-
-  
     <script>
+      setTimeout(function() {
+    $('#header').hide(1);
+}, 1000);
+setTimeout(function(){ alert("Hello"); }, 3000);
+
+
       const panels = document.querySelectorAll('.panel');
   
       function toggleOpen() {
