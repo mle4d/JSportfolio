@@ -82,14 +82,14 @@ body {
   align-items: center;
 }
 
-.panel > *:first-child { transform: translateY(-100%); }
+.panel > *:first-child { transform: translateY(-130%); }
 .panel.open-active > *:first-child { transform: translateY(0); }
 .panel > *:last-child { transform: translateY(130%); }
-.panel.open-active > *:last-child { transform: translateY(2%); }
+.panel.open-active > *:last-child { transform: translateY(-30%); }
 
 .panel p {
   font-family: 'Lobster', cursive;
-  font-size: 2em;
+  font-size: 1em;
   justify-content: center;
   align-items: center;
   color: aliceblue;
@@ -102,16 +102,15 @@ a:visited {
 .panel p:nth-child(2) {
   font-size: 2em;
   opacity: .95;
-  color: #facae1;
+  color: transparent;
   justify-content: center;
   align-items: center;
   font-family: 'Pacifico', cursive;
-  text-shadow: 2px -2px 1px #ffffff, 2px -2px 1px #ffffff, -2px 2px 1px #ffffff, -2px 2px 1px #ffffff;
 }
 
 .panel.open {
   flex: 2;
-  font-size: 2em;
+  font-size: 2.5em;
 }
 
 @media only screen and (max-width: 600px) {
