@@ -71,7 +71,7 @@ body {
 .panel29 { background-image:url(/assets/js29.png); }
 .panel30 { background-image:url(/assets/js30.png); }
 
-/* Flex Items */
+
 .panel > * {
   margin: 0;
   width: 100%;
@@ -83,7 +83,7 @@ body {
 }
 
 .panel > *:first-child { transform: translateY(-130%); }
-.panel.open-active > *:first-child { transform: translateY(0); }
+.panel.open-active > *:first-child { transform: translateY(0%); }
 .panel > *:last-child { transform: translateY(130%); }
 .panel.open-active > *:last-child { transform: translateY(-30%); }
 
