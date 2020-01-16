@@ -96,6 +96,7 @@ body {
 }
 a:visited {
   color: #facae1;
+  
 }
 
 .panel p:nth-child(2) {
@@ -110,6 +111,10 @@ a:visited {
 .panel.open {
   flex: 2;
   font-size: 2.5em;
+  color: black;
+  -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #facae1;
 }
 
 @media only screen and (max-width: 600px) {
