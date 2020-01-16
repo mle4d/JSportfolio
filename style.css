@@ -92,11 +92,10 @@ body {
   font-size: 1em;
   justify-content: center;
   align-items: center;
-  color: aliceblue;
+  color: #ffffff;
 }
 a:visited {
-  color: #ffffff;
-  
+  color: #facae1;
 }
 
 .panel p:nth-child(2) {
