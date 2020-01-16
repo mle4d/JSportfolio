@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Lobster|Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lobster|Shadows+Into+Light&display=swap');
 html {
   box-sizing: border-box;
   background-color: #facae1;
-  font-family: 'Cute Font', cursive;
+  font-family: 'Lobster', cursive;
   font-size: 20px;
   font-weight: 200;
 }
@@ -83,20 +83,32 @@ body {
 }
 
 .panel > *:first-child { transform: translateY(-130%); }
-.panel.open-active > *:first-child { transform: translateY(0%); }
+.panel.open-active > *:first-child { 
+  transform: translateY(0%); 
+  font-family: 'Lobster', sans-serif;
+  text-shadow: -2px -1px 0 #aaa, 2px -1px 0 #aaa, -2px 1px 0 #aaa, 2px 1px 0 #aaa;
+}
 .panel > *:last-child { transform: translateY(130%); }
-.panel.open-active > *:last-child { transform: translateY(-30%); }
+.panel.open-active > *:last-child { 
+  transform: translateY(-30%);
+  font-family: 'Shadows Into Light', cursive;
+  text-shadow: -1px -1px 0 #aaa, 1px -1px 0 #aaa, -1px 1px 0 #aaa, 1px 1px 0 #aaa;
+ }
 
 .panel p {
-  font-family: 'Lobster', cursive;
+  
   font-size: 1em;
   justify-content: center;
   align-items: center;
   color: #ffffff;
 }
-a:visited {
+a:active {
   color: #facae1;
-  
+  font-family: 'Shadows Into Light', cursive;
+}
+a:visited {
+  font-family: 'Shadows Into Light', cursive;
+  color: #facae1;
 }
 
 .panel p:nth-child(2) {
@@ -105,16 +117,13 @@ a:visited {
   color: transparent;
   justify-content: center;
   align-items: center;
-  font-family: 'Pacifico', cursive;
+  
 }
 
 .panel.open {
   flex: 2;
   font-size: 2.5em;
-  color: black;
-  -webkit-text-fill-color: white; /* Will override color (regardless of order) */
-  -webkit-text-stroke-width: 2px;
-  -webkit-text-stroke-color: #facae1;
+  font-weight: 900;
 }
 
 @media only screen and (max-width: 600px) {
