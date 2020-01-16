@@ -102,13 +102,22 @@ body {
   align-items: center;
   color: #ffffff;
 }
-a:active {
+a:link {
   color: #facae1;
   font-family: 'Shadows Into Light', cursive;
 }
 a:visited {
   font-family: 'Shadows Into Light', cursive;
   color: #facae1;
+}
+a:active {
+  color: #facae1;
+  font-family: 'Shadows Into Light', cursive;
+}
+a:hover {
+  color: #facae1;
+  font-family: 'Shadows Into Light', cursive;
+  opacity: .85;
 }
 
 .panel p:nth-child(2) {
