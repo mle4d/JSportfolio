@@ -127,7 +127,7 @@ a:hover {
 .panel p:nth-child(2) {
   font-size: 2em;
   opacity: .95;
-  color: transparent;
+  color: #ffffff;
   justify-content: center;
   align-items: center;
   
