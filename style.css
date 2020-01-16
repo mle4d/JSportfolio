@@ -86,13 +86,13 @@ body {
 .panel.open-active > *:first-child { 
   transform: translateY(0%); 
   font-family: 'Lobster', sans-serif;
-  text-shadow: -2px -1px 0 #aaa, 2px -1px 0 #aaa, -2px 1px 0 #aaa, 2px 1px 0 #aaa;
+  text-shadow: -2px -2px 0 #facae1, 2px -2px 0 #facae1, -2px 2px 0 #facae1, 2px 2px 0 #facae1;
 }
 .panel > *:last-child { transform: translateY(130%); }
 .panel.open-active > *:last-child { 
   transform: translateY(-30%);
   font-family: 'Shadows Into Light', cursive;
-  text-shadow: -1px -1px 0 #aaa, 1px -1px 0 #aaa, -1px 1px 0 #aaa, 1px 1px 0 #aaa;
+  text-shadow: -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff, 1px 1px 0 #ffffff;
  }
 
 .panel p {
