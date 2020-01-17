@@ -83,7 +83,7 @@ body {
 }
 .panel:hover {
   opacity: .95;
-  box-shadow: inset 0 0 0 5px rgba(94, 26, 182, 0.1);
+  box-shadow: inset 0 0 0 7px rgba(56, 8, 118, 0.1);
   cursor: pointer;
 }
 
