@@ -5,7 +5,12 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-      
+    <div id="theDiv" class="mystyle">
+        <h1 class="insideH1">Emily, </br> remove this div</h1>
+        <button onclick="myFunction()">Try it</button>
+      </div>
+      <div class="under"> 
+      </div>
     <div class="panels">
         <div class="panel panel1">
           <p>JS Drum Kit</p>
@@ -57,7 +62,7 @@
       <div class="panel panel10">
         <p>Hold Shift Checkboxes</p>
         <p>&nbsp;Day 10</p>
-        <p><a href="" target="_blank">Site</a></p>
+        <p><a href="https://whoisagoodkitty.netlify.com/" target="_blank">Site</a></p>
       </div>
       <div class="panel panel11">
         <p>Video Player</p>
@@ -170,7 +175,10 @@
 
 // setTimeout(function(){ alert("Click on a project photo to see more!"); }, 1000);
 
-
+function myFunction() {
+  var element = document.getElementById("theDiv");
+  element.remove("theDiv");
+}
       const panels = document.querySelectorAll('.panel');
   
       function toggleOpen() {
