@@ -1,14 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Lobster|Shadows+Into+Light&display=swap');
 @import url('//db.onlinewebfonts.com/c/5d73db06d760d7ebb4b1057e1a444a40?family=Againtsregular');
-@font-face {
-  font-family: "Againtsregular"; 
-  src: url("//db.onlinewebfonts.com/t/5d73db06d760d7ebb4b1057e1a444a40.eot"); 
-  src: url("//db.onlinewebfonts.com/t/5d73db06d760d7ebb4b1057e1a444a40.eot?#iefix") format("embedded-opentype"), 
-  url("//db.onlinewebfonts.com/t/5d73db06d760d7ebb4b1057e1a444a40.woff2") format("woff2"), 
-  url("//db.onlinewebfonts.com/t/5d73db06d760d7ebb4b1057e1a444a40.woff") format("woff"), 
-  url("//db.onlinewebfonts.com/t/5d73db06d760d7ebb4b1057e1a444a40.ttf") format("truetype"), 
-  url("//db.onlinewebfonts.com/t/5d73db06d760d7ebb4b1057e1a444a40.svg#Againts") format("svg"); 
-}
+
 html {
   box-sizing: border-box;
   background-color: #facae1;
