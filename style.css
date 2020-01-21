@@ -1,4 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Lobster|Shadows+Into+Light&display=swap');
+@import url('//db.onlinewebfonts.com/c/5d73db06d760d7ebb4b1057e1a444a40?family=Againtsregular');
+@font-face {
+  font-family: "Againtsregular"; 
+  src: url("//db.onlinewebfonts.com/t/5d73db06d760d7ebb4b1057e1a444a40.eot"); 
+  src: url("//db.onlinewebfonts.com/t/5d73db06d760d7ebb4b1057e1a444a40.eot?#iefix") format("embedded-opentype"), 
+  url("//db.onlinewebfonts.com/t/5d73db06d760d7ebb4b1057e1a444a40.woff2") format("woff2"), 
+  url("//db.onlinewebfonts.com/t/5d73db06d760d7ebb4b1057e1a444a40.woff") format("woff"), 
+  url("//db.onlinewebfonts.com/t/5d73db06d760d7ebb4b1057e1a444a40.ttf") format("truetype"), 
+  url("//db.onlinewebfonts.com/t/5d73db06d760d7ebb4b1057e1a444a40.svg#Againts") format("svg"); 
+}
 html {
   box-sizing: border-box;
   background-color: #facae1;
@@ -9,7 +19,46 @@ html {
 body {
   margin: 0;
 }
+.header {
+  position: fixed;
+  width: 100vw;
+  height: 100vh; 
+  background-color: #facae1;
+  color: #ffffff;
+  font-size: 4vw;
+  /* opacity: .98; */
+  box-shadow: 10px 10px 8px rgba(148, 76, 243, 0.1);
+  text-align: center;
+  
+}
+h1 {
+  font-family: 'Againtsregular';
+  font-size: 15vh;
+  margin-top: -90px;
+  color: #ffffff;
+  text-shadow: none;
+}
+i {
+  color: #facae1;
+  font-size: 20vh;
+  text-shadow: -2px -2px 0 #ffffff, 2px -2px 0 #ffffff, -2px 2px 0 #ffffff, 2px 2px 0 #ffffff;
+}
+.header > button {
+  width: 10vw;
+  height: 8vh;
+  font-family: 'Lobster', cursive;
+  font-size: 80%;
+  text-align: center;
+  color: #facae1;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 25px;
+}
 
+.under > h1{
+  text-align: center;
+  color:green;
+}
 *, *:before, *:after {
   box-sizing: inherit;
 }
